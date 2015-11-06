@@ -8,10 +8,13 @@
 \usetheme{Boadilla}
 
 \setbeamercovered{transparent}
+\setbeamertemplate{navigation symbols}{}
 
 \usecolortheme{purdue}
-
+\renewcommand{\arraystretch}{1.3}
 \usepackage{babel}
+\usepackage{booktabs}
+
 
 \begin{document}
 
@@ -34,21 +37,42 @@
   \end{center}
 \end{frame}
 
-\newcommand{\Gaussian}{\rput(0,-0.35){\psset{yunit=0.8cm,xunit=0.3}
-     \psGauss[linecolor=red, linewidth=0.8pt, sigma=0.5]{-1.5}{1.5}}}
-\def\dedge{\ncline[linestyle=dashed]}
-\def\omitnode{\Tr*[edge=\dedge]{}}
+
 
 \begin{frame}[<+->]{History}
 \begin{itemize}
-\item Developed by Markov in 1906
-\item Markov was a disciple of Chebyshev  along with Lyapunov
-\item Introduced for no practical reason, except maybe to spite Nekrasov\\
-due to the dispute over the Weak Law of Large Numbers
-\item Within 1 year it was being used to clear up issues in thermodynamics
+	\item 45 year male h/o pain and difficulty walking x 2 years
+	\item Difficulty in getting up from sitting position
+	\item Systemic examination unremarkable
 \end{itemize}
 \end{frame}
-
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Biochemical parameters-Baseline}
+\begin{center}
+		\begin{tabular}{p{4cm}p{3.5cm}l}
+			\toprule
+			Parameter                 & Baseline             & Reference      \\ \midrule
+			Calcium                   & 9.2 mg/dl            & 9-11           \\
+			Phosphate                 & 1.3 mg/dl            & 2.5-4.5        \\
+			ALP                       & 146 IU/L             & 40-150         \\
+			\textbf{C-Terminal FGF23} & \textbf{256.7 RU/ml} & \textbf{0-150} \\
+			TMP/GFR                   & 1.3                  & 2.5-4.2        \\
+			PTH                       & 50.1 pg/ml           & 9 - 52         \\
+			25(OH)D                   & 21.3 ng/ml           & 30-100 \\ \bottomrule
+		\end{tabular} 
+\end{center}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%
+\begin{frame}[<+->]{Interpretation}
+	\begin{itemize}
+		\item Hypophosphatemia
+		\item Phosphaturia
+		\item Normal PTH
+		\item Increased FGF 23	
+	\end{itemize}  \pause
+	\bigskip
+	$ \Longrightarrow $ Hypophosphatemic osteomalacia
+\end{frame}
+%%%%%%%%%%%%%%%%%%
 \end{document}
