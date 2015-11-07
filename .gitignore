@@ -1,0 +1,7 @@
+*.aux
+*.nav
+*.out
+example.pdf
+*.snm
+example.synctex.gz
+example.toc
