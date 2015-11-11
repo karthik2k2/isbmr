@@ -5,3 +5,4 @@ example.pdf
 *.snm
 example.synctex.gz
 example.toc
+*.bib
